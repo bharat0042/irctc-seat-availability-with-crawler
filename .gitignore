@@ -1,0 +1,8 @@
+node_modules/
+images/
+.vscode
+package-lock.json
+yarn.lock
+toFromList.js
+.env*
+/.idea/

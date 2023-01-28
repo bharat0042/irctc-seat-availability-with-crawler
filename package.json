@@ -1,0 +1,30 @@
+{
+  "name": "irctc-notify-tickets-available",
+  "version": "1.0.0",
+  "description": "This application checks the seat availability at railyati.com and notifies via email ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "date-arithmetic": "^4.1.0",
+    "nodemailer": "^6.8.0",
+    "puppeteer": "^19.4.0",
+    "smtp-server": "^3.11.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  },
+  "type": "module",
+  "keywords": [
+    "irctc",
+    "railyatri",
+    "seat-availability",
+    "notification",
+    "email"
+  ],
+  "author": "bg42",
+  "license": "MIT"
+}
