@@ -22,3 +22,5 @@ docker build -t train-app .
 
 To run the docker image:
 docker run -e NODE_ENV=test  train-app
+
+The application uses node-cron to schedule a job every saturday and runs the main function.
